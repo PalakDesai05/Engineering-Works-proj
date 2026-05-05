@@ -1,0 +1,64 @@
+# ── Node / npm ──────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+
+# ── Build outputs ────────────────────────────────────────────────────────────
+dist/
+build/
+.next/
+out/
+
+# ── Environment files (NEVER commit secrets) ─────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+.eggs/
+pip-log.txt
+
+# ── Database & uploads (local only) ─────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+pdfs/
+
+# ── OS / editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ── Testing & coverage ───────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+.cache/
+.temp/
+*.tsbuildinfo
